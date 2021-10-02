@@ -20,7 +20,7 @@
     --clr-neutral-grayish-blue: hsl(233, 8%, 62%);
     --clr-neutral-light-grayish-blue: hsl(220, 16%, 96%);
     --clr-neutral-light-gray: hsl(0, 0%, 98%);
-    --clr-neutral-grayish-blue: hsl(233, 8%, 62%);
+    
 
     --clr-white: hsl(0, 0%, 100%);
     
@@ -49,3 +49,125 @@ img {
     height: auto;
     display: block;
 }
+
+html {
+  font-family: var(--ff-body);
+  background-color: var(--clr-white);
+}
+
+main {
+  display: block;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 82.5%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* +++ HEADER */
+
+header {
+  height: auto;
+  position: relative;
+  z-index: 1000;
+  background-color: var(--clr-white);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo_top {
+  align-items: center;
+  
+}
+
+.topnav__ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+.topnav__item {
+  padding: 2rem 1.5rem;
+  
+}
+
+.topnav__item a {
+  color: var(--clr-neutral-grayish-blue);
+}
+
+.btn_cta {
+  padding: .9rem 2rem;
+  font-family: var(--ff-body);
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 100px;
+  border: 0;
+  background: linear-gradient(to right, #39a355 26%,#5fb6cc 82%);
+  opacity: .92;
+  
+}
+
+.btn_cta a {
+  color: white;
+ 
+}
+
+
+/* +++ SECTION main_hero */
+
+
+
+.main_hero {  
+  height: 80vh;
+  position: relative;
+  background-color: var(--clr-neutral-light-grayish-blue);
+}
+
+.main_hero__bg {
+  position: absolute;
+  right: -25%;
+  bottom: -7.5%;
+  transform: scale(.9);
+  z-index: 10;
+}
+
+.main_hero__img {
+  position: absolute;
+  z-index: 100;
+  right: -8%;
+  top: -15%;
+}
+
+.main_hero__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  display: inline-block;
+  align-items: center;
+  padding-top: 15%;
+}
+
+.main_hero__text h1 {
+  font-weight: 300;
+  font-size: 3rem;
+  color: var(--clr-primary-dark-blue);
+}
+
+.main_hero__text p {
+  padding: 1.75rem 0;
+  font-size: 1.1rem;
+  color: var(--clr-neutral-grayish-blue);
+}
+
+
