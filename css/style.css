@@ -199,14 +199,14 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 1.5rem;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
 }
 
 .col h2 {
   font-weight: 400;
   font-size: 1.2rem;
   color: var(--clr-primary-dark-blue);
-  padding-top: 1.75rem;
+  padding-top: 2.25rem;
 }
 
 .col p {
