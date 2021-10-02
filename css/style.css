@@ -4,7 +4,7 @@
 
 :root {
     --ff-body: "Public Sans", sans-serif;
-    --fs: 18px;
+    --fs: 16px;
     
     --fs-xl: clamp(3rem, 4.5vw + 1rem, 4.5rem);
     --fs-700: 3rem;
@@ -53,11 +53,15 @@ img {
 html {
   font-family: var(--ff-body);
   background-color: var(--clr-white);
+  font-size: var(--fs);
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 main {
   display: block;
   position: relative;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -127,10 +131,12 @@ header {
 /* +++ SECTION main_hero */
 
 
+
 .main_hero {  
   height: 80vh;
   position: relative;
   background-color: var(--clr-neutral-light-gray);
+  overflow: hidden;
 }
 
 .main_hero__bg {
@@ -173,8 +179,12 @@ header {
 /* +++ SECTION main_middle */
 
 .main_middle {
-  height:60vh;
   background-color: var(--clr-neutral-light-grayish-blue);
+  height: auto;
+}
+
+.main_middle .wrapper {
+  margin-bottom: 2rem;
 }
 
 .main_middle__intro {
@@ -203,6 +213,7 @@ header {
 }
 
 .col h2 {
+  width: 100%;
   font-weight: 400;
   font-size: 1.2rem;
   color: var(--clr-primary-dark-blue);
