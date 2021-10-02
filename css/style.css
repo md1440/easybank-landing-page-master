@@ -127,11 +127,10 @@ header {
 /* +++ SECTION main_hero */
 
 
-
 .main_hero {  
   height: 80vh;
   position: relative;
-  background-color: var(--clr-neutral-light-grayish-blue);
+  background-color: var(--clr-neutral-light-gray);
 }
 
 .main_hero__bg {
@@ -155,7 +154,7 @@ header {
   max-width: 400px;
   display: inline-block;
   align-items: center;
-  padding-top: 15%;
+  padding-top: 15vw;
 }
 
 .main_hero__text h1 {
@@ -167,6 +166,53 @@ header {
 .main_hero__text p {
   padding: 1.75rem 0;
   font-size: 1.1rem;
+  color: var(--clr-neutral-grayish-blue);
+}
+
+
+/* +++ SECTION main_middle */
+
+.main_middle {
+  height:60vh;
+  background-color: var(--clr-neutral-light-grayish-blue);
+}
+
+.main_middle__intro {
+  max-width: 600px;
+  font-weight: 400;
+  padding-top: 4rem;
+}
+
+.main_middle__intro h1 {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: var(--clr-primary-dark-blue);
+}
+
+.main_middle__intro p {
+  padding: 1.75rem 0;
+  font-size: 1.1rem;
+  color: var(--clr-neutral-grayish-blue);
+}
+
+.main_middle__flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-top: 2rem;
+}
+
+.col h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--clr-primary-dark-blue);
+  padding-top: 1.75rem;
+}
+
+.col p {
+  padding: 1.75rem 0;
+  font-weight: 300;
+  font-size: 1rem;
   color: var(--clr-neutral-grayish-blue);
 }
 
