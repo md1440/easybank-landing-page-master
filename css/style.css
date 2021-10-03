@@ -74,7 +74,7 @@ a {
   text-decoration: none;
 }
 
-/* +++ HEADER */
+/* +++ HEADER & NAVBAR */
 
 header {
   height: auto;
@@ -87,7 +87,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .logo_top {
@@ -119,6 +118,8 @@ header {
   border-image-slice: 1;
 }
 
+/* +++ BUTTON CTA */
+
 button {
   display: inline-block;
   cursor: pointer;
@@ -144,8 +145,6 @@ button {
 
 
 /* +++ SECTION main_hero */
-
-
 
 .main_hero {  
   position: relative;
