@@ -368,11 +368,23 @@ footer {
   transform: scale(.9);
 }
 
-.footer_social:hover .social_icon1,
-.footer_social .social_icon2 {
+.fb:hover .social_icon11,
+.fb .social_icon12,
+.yt:hover .social_icon21,
+.yt .social_icon22, 
+.twitter:hover .social_icon31,
+.twitter .social_icon32, 
+.pinterest:hover .social_icon41,
+.pinterest .social_icon42, 
+.insta:hover .social_icon51,
+.insta .social_icon52 {
   display: none;
 }
 
-.footer_social:hover .social_icon2 {
+.fb:hover .social_icon12,
+.yt:hover .social_icon22,
+.twitter:hover .social_icon32,
+.pinterest:hover .social_icon42,
+.insta:hover .social_icon52 {
   display: block;
 }
