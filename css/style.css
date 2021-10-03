@@ -133,7 +133,6 @@ header {
 
 
 .main_hero {  
-  height: 80vh;
   position: relative;
   background-color: var(--clr-neutral-light-gray);
   overflow: hidden;
@@ -141,9 +140,8 @@ header {
 
 .main_hero__bg {
   position: absolute;
-  right: -25%;
-  bottom: -7.5%;
-  transform: scale(.9);
+  right: -28rem;
+  bottom: -9rem;
   z-index: 10;
 }
 
@@ -151,7 +149,7 @@ header {
   position: absolute;
   z-index: 100;
   right: -8%;
-  top: -15%;
+  top: -10%;
 }
 
 .main_hero__text {
@@ -161,6 +159,7 @@ header {
   display: inline-block;
   align-items: center;
   padding-top: 15vw;
+  padding-bottom: 10vw;
 }
 
 .main_hero__text h1 {
@@ -183,19 +182,15 @@ header {
   height: auto;
 }
 
-.main_middle .wrapper {
-  margin-bottom: 2rem;
-}
-
 .main_middle__intro {
   max-width: 600px;
   font-weight: 400;
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 
-.main_middle__intro h1 {
+.main_middle__intro h2 {
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--clr-primary-dark-blue);
 }
 
@@ -210,9 +205,10 @@ header {
   justify-content: space-between;
   gap: 1.5rem;
   padding-top: 2.5rem;
+  padding-bottom: 5rem;
 }
 
-.col h2 {
+.col h3 {
   width: 100%;
   font-weight: 400;
   font-size: 1.2rem;
@@ -226,5 +222,60 @@ header {
   font-size: 1rem;
   color: var(--clr-neutral-grayish-blue);
 }
+
+/* +++ SECTION main_articles */
+
+.main_articles {
+  background-color: var(--clr-white);
+  height: auto;
+}
+
+.main_articles__intro {
+  max-width: 600px;
+  font-weight: 400;
+  padding-top: 4.5rem;
+}
+
+.main_articles__intro h2 {
+  font-weight: 300;
+  font-size: 2rem;
+  color: var(--clr-primary-dark-blue);
+}
+
+.main_articles__flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.col {
+  width: 100%;
+}
+
+.main_articles__img {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.main_articles__text {
+  padding: 10%;
+}
+
+.main_articles__text h4 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--clr-primary-dark-blue);
+}
+
+.main_articles__text p {
+  padding: 1rem 0;
+  font-weight: 300;
+  font-size: .8rem;
+  color: var(--clr-neutral-grayish-blue);
+}
+
 
 
