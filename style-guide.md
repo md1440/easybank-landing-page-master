@@ -32,3 +32,24 @@ The designs were created to the following widths:
 
 - Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
 - Weights: 300, 400, 700
+
+
+.topnav__item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.topnav__item a {
+  color: var(--clr-neutral-grayish-blue);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: block;
+  border-bottom: 2.5px solid transparent;
+}
+
+.topnav__item a:hover {
+  color: var(--clr-primary-dark-blue);
+  border-bottom: 2.5px solid;
+  border-image: linear-gradient(to right, #39a355 26%,#5fb6cc 82%);
+  border-image-slice: 1;
+}
